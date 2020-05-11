@@ -1,0 +1,132 @@
+body{
+
+padding: 0px;
+margin: 0px;
+}
+
+
+
+
+}
+  header{
+    
+    height: 5em;
+    background: url(../img/fibradecarbono.jpg) 
+   
+    
+  
+  }
+
+  .logoimg{
+
+    height: 5em;
+    border-radius: 50%;
+   
+    
+    }
+    
+    
+    
+    .logoimg {
+    
+        animation-duration: 3s;
+        animation-name: animacionLogo;
+        animation-iteration-count: infinite;
+      }
+    @keyframes animacionLogo{
+        from {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(-0deg);
+        }
+     
+        to {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(-360deg);
+            }
+    }
+
+   
+.box{
+position: relative;
+bottom: 130px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+input.search{
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    border-radius: 5px;
+    color: #63717f;
+    position: relative;
+    top: 25px;
+   }
+
+.conteiner input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }   
+
+ .conteiner input[type="submit"]:hover {
+    cursor: pointer;
+   background-color: black;
+    color: white;
+  }
+
+  .ubicacionheader{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 60px;
+
+  }
+
+.subtitulo{
+
+text-align: right;    
+position: relative;
+right: 3.6em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.7em;
+
+}
+
+
+.fangio{
+position: relative;
+left: 63em;
+top: 1.5em;
+display: block;
+width: 20em;
+}
+
+.schumacher{
+    position: relative;
+    left: 63em;
+    top: 1.5em;
+    display: block;
+    width: 20em;
+
+
+}
+
+.galvez{
+    position: relative;
+    left: 63em;
+    top: 1.5em;
+    display: block;
+    width: 20em;
+}
+
+
+

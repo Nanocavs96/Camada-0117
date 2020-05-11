@@ -1,0 +1,402 @@
+body{
+
+padding: 0px;
+margin: 0px;
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(85,85,85,1) 100%);
+
+}
+
+
+.inicio {
+  text-align: center;
+  border: 2px;
+  display: inline-block;
+  color: red;
+  border-bottom: black 2px solid;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.titulo {
+  text-align: center;
+}
+
+.imgfangio {
+  
+  width: 35em;
+  border: brown 2px solid;
+  padding: 3em;
+  margin: 2em;
+}
+
+.fangio{
+  display: flex ; justify-content: center;
+  align-items:center ;
+}
+
+
+.imgautofangio{
+  display: flex ; justify-content: center;
+  align-items:center ;
+  width: 35em;
+  border: brown 2px solid;
+  padding: 3em;
+  margin: 1em;
+}
+
+.fangioauto{
+  display: flex ; justify-content: center;
+  align-items:center ;
+
+}
+
+.frase{
+text-align: center;
+
+
+}
+
+
+.tabla1{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+
+
+.iniciar{
+    width: 420px;
+    height: 500px;
+    background-color: springgreen;
+    padding: 10px;
+    border: violet 20px solid;
+    margin: 10px;
+    display: inline-block;
+} 
+
+.iniciar2{
+    width: 420px;
+    height: 500px;
+    background-color: tomato;
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    border: solid black solid;
+
+}
+
+.separacion {
+
+   
+    border: 1px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+header{
+    
+  height: 5em;
+  background: url(../../img/fibradecarbono.jpg) 
+ 
+  
+
+}
+
+.logoimg{
+
+  height: 5em;
+  border-radius: 50%;
+ 
+  
+  }
+  
+  
+  
+  .logoimg {
+  
+      animation-duration: 3s;
+      animation-name: animacionLogo;
+      animation-iteration-count: infinite;
+    }
+  @keyframes animacionLogo{
+      from {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(-0deg);
+      }
+   
+      to {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(-360deg);
+          }
+  }
+
+ 
+.box{
+position: relative;
+bottom: 130px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+input.search{
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  border-radius: 5px;
+  color: #63717f;
+  position: relative;
+  top: 25px;
+ }
+
+.conteiner input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: red;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}   
+
+.conteiner input[type="submit"]:hover {
+  cursor: pointer;
+ background-color: black;
+  color: white;
+}
+
+.ubicacionheader{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 60px;
+
+}
+
+.parrafofangio{
+display: inline block ;
+text-align: center;
+font-size: 1.5em;
+
+}
+
+.cuestionario{
+text-align: center;
+margin: 0px;
+padding: 0px;
+}
+
+
+.alfaromeo{
+
+  
+  width: 35em;
+  border: brown 2px solid;
+  padding: 3em;
+  margin: 1em;
+}
+
+.divalfa{
+  display: flex ; justify-content: center;
+  align-items:center ;
+
+  
+}
+
+/*Texto*/
+.titulo{
+  color: red;
+  display: inline ;
+  display: flex;
+  border-bottom:  rgba(252,176,69,1) solid ;
+  position: relative;
+  top: 10px;
+}
+.divtitulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.subtitulo{
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+  }
+
+.parrafofangio {
+  color: white;
+  text-align: center;
+  border: 1px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.frase{
+color: white;
+
+}
+
+.color2{
+color: white;
+
+}
+
+td{
+color: white;
+
+}
+
+tr{
+
+color: red;
+}
+
+.juego{
+
+text-align: center;
+
+}
+
+.mejorequipo{
+
+  border-bottom: red solid 2px;
+  display: inline block;
+
+}
+.divmejorequipo{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+.fondofin{
+background-image: url(../../img/mecanica.jpg);
+height: 100%
+padding: 0px;
+margin: 0px;
+}
+
+.aporte{
+color: white;
+text-align: center;
+position: relative;
+top: 8px;
+}
+.edad{
+color: white;
+font-size: 1.3em;
+padding: 12px;
+margin: 0px;
+}
+
+
+.botonenviar{
+  border: none;
+  height: 40px;
+  background-color: red;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  position: relative;
+  left: 145px;
+  bottom: 40px;
+
+
+}
+
+.botonenviar :hover{
+
+
+  cursor: pointer;
+  background-color: black;
+  color: white;
+ 
+
+}
+
+.botonnumero input[type="number"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+}   
+
+.botonnumero input[type="number"]:hover {
+  cursor: pointer;
+ background-color: red;
+  color: white;
+}
+
+
+
+.botontext input[type="text"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: red;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+}   
+
+.botontext input[type="text"]:hover {
+  cursor: pointer;
+ background-color: black;
+  color: white;
+}
+
+
+
+.ayrtonpost{
+
+  position: relative;
+  left: 64em;
+  bottom: 125em;
+  display: block;
+  width: 15em;
+
+}
+
+
+.schumacher{
+  position: relative;
+  left: 64em;
+  bottom: 124em;
+  display: block;
+  width: 15em;
+
+
+}
+
+.galvez{
+
+  position: relative;
+  left: 64em;
+  bottom: 123em;
+  display: block;
+  width: 15em;
+
+
+}

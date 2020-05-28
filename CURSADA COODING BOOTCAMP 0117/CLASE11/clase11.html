@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <style>
+
+.lista{
+display: none;
+
+}
+
+
+.logo {
+        width: 9em;
+
+
+    }
+    
+@media(min-width: 500px) {
+    .menuMobile{
+        display: none;
+    
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header{
+        width: 80%;
+        padding: 0 10%;
+    }
+
+
+    .lista{
+
+        display: flex;
+        list-style: none;
+    }
+
+    .lista li {
+        padding-left: 2em;
+    }
+        
+   
+    
+
+}
+    </style>
+
+</head>
+<body>
+   
+    <header class="header">     
+        <!--<nav class="menuMobile">  
+            
+        </nav>-->
+        <nav class="menu">
+            <ion-icon class="menuMobile" name="menu-outline"></ion-icon>
+            <img src="../../CURSADA COODING BOOTCAMP 0117/CLASE11/velez-logo-escudo.png" alt="logo" class="logo">
+            <ul class="lista">    
+                <li><a href="">Link1</a></li>           
+                <li>Link2</li>    
+                <li>Link3</li>
+            </ul>   
+        </nav>
+    </header>
+</body>
+</html>

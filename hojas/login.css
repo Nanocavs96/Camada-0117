@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url(/ProyectoIntegrador/Img/DF\ FondoMesa\ de\ trabajo\ 14.png;
+  background-size: cover;
+  background-attachment: fixed;
+}
+* {
+  box-sizing: border-box;
+}
+.contenedor{
+  width: 100%;
+  padding: 15px;
+}
+.formulario{
+  background: #fff;
+  margin-top: 150px;
+  padding: 3px;
+}
+img{
+ 
+  color: #00d4ff;
+  width: 50%;
+ 
+}
+
+.imglogin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+input[type="text"],
+input[type="password"]{
+  font-size: 20px;
+  width: 82%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.input-contenedor{
+  margin-bottom: 15px;
+  border: 1px solid #00d4ff;
+}
+.icon{
+  min-width: 50px;
+  text-align: center;
+  color: #00d4ff;
+}
+.button{
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background:  #00d4ff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+.button:hover{
+  background: #090978;
+  transition: 0.5s all;
+}
+p{
+  text-align: center;
+}
+.link{
+  text-decoration: none;
+    color: #00d4ff;
+  font-weight: 600;
+}
+.link:hover{
+   color: #090978;
+   transition: 0.5s all;
+}
+@media(min-width:768px)
+{
+  .formulario{
+      margin: auto;
+      width: 500px;
+      margin-top: 150px;
+      border-radius: 2%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

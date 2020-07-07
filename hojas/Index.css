@@ -1,23 +1,24 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../img/fondoqeo.jpg) no-repeat center top;
+    background-image: url(/DF\ FondoMesa\ de\ trabajo\ 14.png);
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
   }
   
-  .login-box {
-    width: 320px;
+  .loginbox {
+   
+    width: 400px;
     height: 420px;
-    background: #000;
+    background: greenyellow ;
     color: #fff;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 4% 2%;
     border: 2px solid grey
   }
   
@@ -28,6 +29,22 @@ body {
     position: absolute;
     top: -50px;
     left: calc(50% - 50px);
+    animation-duration: 3s;
+    animation-name: animacionLogo;
+    animation-iteration-count: infinite;
+  }
+@keyframes animacionLogo{
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(-0deg);
+    }
+ 
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        }
+}
+}
   }
   
   h1 {
@@ -46,10 +63,10 @@ body {
   
   input {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 4%;
   }
   
-  .login-box input[type="text"], .login-box input[type="password"] {
+  .loginbox input[type="text"], .loginbox input[type="password"] {
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -59,12 +76,12 @@ body {
     font-size: 16px;
   }
   
-  .login-box input[type="submit"] {
+ /* .login-box input[type="submit"] {
     border: none;
     outline: none;
-    height: 40px;
-    background: rgb(253,29,29);
-    background: linear-gradient(90deg, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 80%);
+    height: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -72,22 +89,27 @@ body {
   
   .login-box input[type="submit"]:hover {
     cursor: pointer;
-    background: rgb(252,176,69);
-    background: linear-gradient(90deg, rgba(252,176,69,1) 30%, rgba(253,29,29,1) 80%);
-    color: #000;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
   }
+  */
   
-  .login-box a {
+  .loginbox a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 20px;
-    color: white
+    color: white;
+   
   }
   
-  .login-box a:hover {
-    color: rgba(252,176,69,1);
+  .loginbox a:hover {
+    color: #00d4ff;
   }
-
+.links{
+  position: relative;
+  top: 10px;
+}
   
 .inicio{
 
@@ -95,4 +117,54 @@ font-family: cursive;
 text-align: center; 
 
 }
+
+
+
+.boton_1{
+  cursor: pointer;
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 2px;
+  font-style: italic;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ffff;
+  border-radius: 15px;
+  border: 3px double #090978;
+  display: block;
+  text-align: center;
+  
+}
+.boton_1:hover{
+  
+  color: white;
+  text-decoration: none;
+  background: rgb(2,0,36);
+
+}
+
+@media(max-width: 768px){
+.loginbox { 
+  width: 400px;
+  height: 420px;
+  background: violet ;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 4% 2%;
+  border: 2px solid grey
+}
+}
+ 
+
+
+
+  
 

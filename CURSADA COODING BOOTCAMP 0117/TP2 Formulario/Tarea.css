@@ -59,10 +59,17 @@ body {
     color: #fff;
     font-size: 16px;
   }
-  
-  .formulario input[type="submit"] {
+  .textoinicio{
+    text-align: center;
+    position: relative;
+    top: 9px;
+    font-size: 20px;
+  }
+
+  .botoninicio {
     border: none;
-    
+    cursor: pointer;
+    bottom: 30px;
     height: 40px;
     background: rgb(253,29,29);
     background: linear-gradient(90deg, rgba(253,29,29,1) 30%, rgba(252,176,69,1) 80%);

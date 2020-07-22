@@ -99,7 +99,7 @@ function relacion(a,b){
 // EJERCICIO 8 (No sé como hacer para que me retorne false o verdadero
 // asi que opte por hacer un alert asi el ejercicio no queda incompleto)
 
-/*  var dni = prompt();
+  var dni = prompt();
 
 dniverificacion();
 
@@ -113,12 +113,14 @@ function dniverificacion (){
     
     if (parametro > 7 ) {
         alert("Dni valido")
+        return true
     } else {
 
         alert("Su Dni no es valido")
+        return false
     }
 } 
-     */
+     
 
 
 

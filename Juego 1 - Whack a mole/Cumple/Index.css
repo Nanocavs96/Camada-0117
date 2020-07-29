@@ -1,0 +1,56 @@
+body{
+   background-image: url(../img/FondoMesa\ de\ trabajo\ 1.jpg);
+ 
+}
+.divimg{
+
+position: absolute;
+right: 90px;
+top: 10px;
+z-index: 1;
+width: 150px;
+
+
+}
+.logo{
+    
+    width: 100%;
+}
+.contenedor-cuadrado{
+    width: 700px;
+    height: 700px;
+}
+
+.cuadrado {
+    display: inline-block;
+    width: 24%;
+    height: 24%;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.cuadrado:hover {
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+  
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.caraSeba{
+    background-image: url(https://res.cloudinary.com/hdsqazxtw/image/upload/v1559681445/logo_coderhouse_1_rec5vl.png);
+    background-size: contain;
+}

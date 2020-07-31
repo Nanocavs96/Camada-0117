@@ -5,7 +5,7 @@ var resultadocuenta = 0
 const tiempo = setInterval(restarTiempo, 1000) // Agregado 
 const cantPuntosGanados = 10 
 const listaFrasesCorrectas = ["Dale Marito","Bien ahi Moco", "Metele colombia"] 
-const listaFrasesIncorrectas = ["Casi Capecce", "Saca la mano de ahi boton", "Le erraste por ponerte en cheto"] 
+const listaFrasesIncorrectas = ["Casi Capecce", "En el año de la poronga vas a ganar", "Le erraste por ponerte en cheto"] 
 const cuadrados = document.querySelectorAll('.cuadrado')  
 
 const spanPuntos = document.getElementById('cantPuntos') 
@@ -96,7 +96,7 @@ function ganaroperder (){
         contenedor_cuadrado.style.backgroundSize = "cover"
         contenedor_cuadrado.style.backgroundRepeat = "no-repeat"
         clearInterval(tiempo); // Agregado
-        spanFrases.textContent = "Vamos los Borges"
+        spanFrases.textContent = "Feli cumpleaño Marito"
         tiempofinal.textContent =  resultadocuenta + " Segundos " // Agregado 
     }} 
 

@@ -515,7 +515,7 @@ body {
       } 
     }
 
-   
+   /* footer */ 
     footer{
       
       bottom: 0px;
@@ -565,15 +565,17 @@ body {
     }
     .left .content .social{
       margin: 20px 0 0 0;
+    
     }
     .left .content .social a{
       padding: 0 2px;
+      color: white;
     }
     .left .content .social a span{
       height: 40px;
       width: 40px;
       
-      background: white;
+      background: rgba(9,9,121,1) 35%;
       line-height: 40px;
       text-align: center;
       font-size: 18px;
@@ -581,11 +583,12 @@ body {
       transition: 0.3s;
     }
     .left .content .social a span:hover{
-      background: pink;
+      background: #3498db;
+      
     }
     .center .content .fas{
       font-size: 1.4375rem;
-      background: #1a1a1a;
+      background: rgba(9,9,121,1) 35%;
       height: 45px;
       width: 45px;
       line-height: 45px;
@@ -593,26 +596,32 @@ body {
       border-radius: 50%;
       transition: 0.3s;
       cursor: pointer;
+      color: white;
     }
     .center .content .fas:hover{
-      background: #f12020;
+      background: #3498db;
     }
     .center .content .text{
       font-size: 1.5rem;
       font-weight: 500;
       padding-left: 10px;
       color: white;
+      
+      
     }
     .center .content .phone{
       margin: 15px 0;
+      color: red;
     }
     .right form .text{
       font-size: 1.0625rem;
       margin-bottom: 2px;
-      color: #656565;
+      
+    
     }
     .right form .msg{
-      margin-top: 10px;
+      margin-top: 1000px;
+      
     }
     .right form input, .right form .msgForm{
       width: 100%;
@@ -623,7 +632,7 @@ body {
     }
     .right form input:focus,
     .right form .msgForm:focus{
-      outline-color: #3498db;
+      outline-color: red;
     }
     .right form input{
       height: 35px;
@@ -636,14 +645,14 @@ body {
       width: 100%;
       border: none;
       outline: none;
-      background: #f12020;
+      background: #3498db;
       font-size: 1.0625rem;
       font-weight: 500;
       cursor: pointer;
       transition: .3s;
     }
     .right form .btn button:hover{
-      background: #000;
+      background: red;
     }
    
     @media screen and (max-width: 900px) {
@@ -660,6 +669,23 @@ body {
       }
     }
     
+    @media (max-width: 425px) {
+ 
+      .primeraparte{
+        display: none !important;
+        
+      } .primerapartemedia {
+        width: 100%;
+        display: block !important ;
+        position: relative;
+        top: 20px;
+    
+      } .primerapartemedia768{
+        display: none !important ;
+      } 
+    }
+    
+
 /*
 footer{
     width: 100%;
@@ -840,31 +866,4 @@ justify-content: center;
     }
 }
 
-@media (max-width: 425px) {
- 
-  .primeraparte{
-    display: none !important;
-    
-  } .primerapartemedia {
-    width: 100%;
-    display: block !important ;
-    position: relative;
-    top: 20px;
-
-  } .primerapartemedia768{
-    display: none !important ;
-  } .container-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } .colum3{
-  
-    
-  } .colum1{
-    text-align: center;
-  } .face2{
-    display: none !important;
-
-  }
-}
 

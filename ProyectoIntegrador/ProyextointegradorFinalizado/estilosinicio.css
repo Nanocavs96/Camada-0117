@@ -5,31 +5,37 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-*{
+*/* {
 
     box-sizing: border-box;
 }
 
 .contenedor{
     width: 100%;
-    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .formulario{
 background: #ffffff;
-margin-top: 150px;
-padding: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
+
 img{
     color: #00d4ff;
-    width: 50%;
+    width: 30%;
 }
+
 .imglogin{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 input[type="text"],
 input[type="password"]{
     font-size: 20px;
@@ -41,17 +47,19 @@ input[type="password"]{
 }
 
 .input-contenedor{
-    margin-bottom: 15px;
+    margin-bottom: 150px;
     border: 1px solid #00d4ff;
 }
 
 .icon{
+    
 min-width: 50px;
 text-align: center;
 color: #00d4ff;
 
 }
 .button{
+    
 border: none;
 width: 100%;
 color: white;
@@ -96,4 +104,128 @@ font-weight: 600px;
 
 }
 
+} */
+
+*{
+    box-sizing: border-box;
 }
+
+body {
+    background: url(/ProyectoIntegrador/Img/DF\ FondoMesa\ de\ trabajo\ 14.png)no-repeat;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+color: #ffffff;
+text-align: center; 
+position: relative;
+top: 15%;
+
+} 
+
+
+.form-register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+    position: relative;
+    top: 15%;
+}
+
+.form__titulo{
+background: #00aae4 ;
+color: #ffffff;
+padding: 20px;
+text-align: center;
+font-weight: 100;
+font-size: 30px;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+border-bottom: 5px solid darkblue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+.input-48{
+    width: 48%;
+
+}
+
+.input-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    background: darkblue;
+    color: white;
+    margin: auto;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    bottom: 8px;
+    text-decoration: none;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+
+.form__link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+@media (max-width: 425px) {
+    h1{
+        display: none ; 
+      
+    } .form-register{
+        position: relative;
+        top: 20%;
+    }
+    
+    
+    }
+
+    
+@media (max-width: 375px) {
+    h1{
+        display: none ; 
+      
+    }.contenedor-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    } .form-register{
+        position: relative;
+        top: 15%;
+    }
+    
+    
+    }
